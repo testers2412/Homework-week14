@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <parameter name="email" value="prime@gmail.com"></parameter>
+    <parameter name="password" value="prime123"></parameter>
+    <parameter name="email1" value="tiapatel@gmail.com"></parameter>
+    <parameter name="password1" value="Prime123"></parameter>
+    <listeners>
+        <listener class-name="com.nopcommerce.customlisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Sanity Test" >
+
+        <classes>
+            <class name="com.nopcommerce.testsuite.RegisterPageTest"></class>
+            <class name="com.nopcommerce.testsuite.LoginPageTest"/>
+            <class name="com.nopcommerce.testsuite.ComputerPageTest"></class>
+        </classes>
+    </test>
+</suite>

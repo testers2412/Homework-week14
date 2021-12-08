@@ -1,0 +1,11 @@
+com\nopcommerce\propertyreader\PropertyReader.class
+com\nopcommerce\pages\ComputerPage.class
+com\nopcommerce\utility\Utility$1.class
+com\nopcommerce\pages\BuildYourOwnComputerPage.class
+com\nopcommerce\pages\HomePage.class
+com\nopcommerce\customlisteners\CustomListeners.class
+com\nopcommerce\drivermanager\ManageDriver.class
+com\nopcommerce\pages\DesktopsPage.class
+com\nopcommerce\pages\LoginPage.class
+com\nopcommerce\pages\RegisterPage.class
+com\nopcommerce\utility\Utility.class

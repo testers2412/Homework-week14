@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+
+    <test name="Login Test">
+        <parameter name="email" value="prime@gmail.com"></parameter>
+        <parameter name="password" value="prime123"></parameter>
+        <parameter name="email1" value="tiapatel@gmail.com"></parameter>
+        <parameter name="password1" value="Prime123"></parameter>
+        <classes>
+
+            <class name="com.nopcommerce.testsuite.LoginPageTest"/>
+
+        </classes>
+    </test>
+</suite>

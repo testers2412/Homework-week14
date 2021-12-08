@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[verifying the welcome message : [[ChromeDriver: chrome on WINDOWS (6eee63baae60cfaeece9d7e4015c14db)] -> xpath: //h1[normalize-space()='Welcome, Please Sign In!']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="6137" started-at="2021-12-05T21:07:15 GMT" finished-at="2021-12-05T21:07:21 GMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="6137" started-at="2021-12-05T21:07:15 GMT" finished-at="2021-12-05T21:07:21 GMT">
+      <class name="com.nopcommerce.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.testsuite.LoginPageTest@36b4cef0]" name="setUp" is-config="true" duration-ms="4373" started-at="2021-12-05T21:07:15 GMT" finished-at="2021-12-05T21:07:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.testsuite.LoginPageTest@36b4cef0]" name="inIt" is-config="true" duration-ms="33" started-at="2021-12-05T21:07:19 GMT" finished-at="2021-12-05T21:07:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.testsuite.LoginPageTest@36b4cef0]" name="userShouldNavigateToLoginPageSuccessFully" duration-ms="1026" started-at="2021-12-05T21:07:19 GMT" finished-at="2021-12-05T21:07:20 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[verifying the welcome message : [[ChromeDriver: chrome on WINDOWS (6eee63baae60cfaeece9d7e4015c14db)] -> xpath: //h1[normalize-space()='Welcome, Please Sign In!']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.testsuite.LoginPageTest@36b4cef0]" name="tearDown" is-config="true" duration-ms="673" started-at="2021-12-05T21:07:20 GMT" finished-at="2021-12-05T21:07:21 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testsuite.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
